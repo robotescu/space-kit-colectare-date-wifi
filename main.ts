@@ -1,11 +1,11 @@
 input.onButtonPressed(Button.A, function () {
     basic.pause(1000)
     nezhaV2.combinationMotorNezhaV2VerticallDirectionMove(75, NezhaV2VerticallDirection.Up)
-    basic.pause(2000)
+    basic.pause(8000)
     nezhaV2.stopCombinationMotor()
     basic.pause(500)
     nezhaV2.setSpeedfLeftRightWheel(100, -100)
-    basic.pause(1000)
+    basic.pause(1200)
     nezhaV2.stopCombinationMotor()
     basic.pause(1000)
     start = 1
